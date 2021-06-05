@@ -1,96 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Dashboard</title>
-</head>
-<body>
-  <section>
-    <div class="top_container">
-      <div class="top_container_text">
-        <div class="top_title">
-          <h1>Social Media Dashboard</h1>
-          <span>Total Followers: 23,004</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <section>
+      <div class="top_container">
+        <div class="top_container_text">
+          <div class="top_title">
+            <h1>Social Media Dashboard</h1>
+            <span>Total Followers: 23,004</span>
+          </div>
+          <div class="toggle_dark_mode">
+            <span>Dark Mode</span>
+            <label title="toggle" class="switch">
+              <input type="checkbox" id="toggle" />
+              <span class="slider round"></span>
+            </label>
+          </div>
         </div>
-        <div class="toggle_dark_mode">
-          <span>Dark Mode</span>
-          <label title="toggle" class="switch">
-            <input type="checkbox" id="toggle">
-            <span class="slider round"></span>
-          </label>
+        <div class="card_container">
+          <div class="card_top card fb">
+            <a href="#"
+              ><img src="assets/icon-facebook.svg" alt="icon" /> @nathanf</a
+            >
+            <h1>1987</h1>
+            <h2>FOLLOWERS</h2>
+            <span class="green"><img src="assets/icon-up.svg" alt="up" /> 12 Today</span>
+          </div>
+          <div class="card_top card tt">
+            <a href="#"
+              ><img src="assets/icon-twitter.svg" alt="icon" /> @nathanf</a
+            >
+            <h1>1044</h1>
+            <h2>FOLLOWERS</h2>
+            <span class="green"><img src="assets/icon-up.svg" alt="up" /> 99 Today</span>
+          </div>
+          <div class="card_top card insta">
+            <a href="#"
+              ><img src="assets/icon-instagram.svg" alt="icon" />
+              @realnathanf</a
+            >
+            <h1>11K</h1>
+            <h2>FOLLOWERS</h2>
+            <span class="green"><img src="assets/icon-up.svg" alt="up" /> 1099 Today</span>
+          </div>
+          <div class="card_top card youtube">
+            <a href="#"
+              ><img src="assets/icon-youtube.svg" alt="icon" /> Nathan F.</a
+            >
+            <h1>8239</h1>
+            <h2>SUBSCRIBERS</h2>
+            <span class="red"><img src="assets/icon-down.svg" alt="down" /> 144 Today</span>
+          </div>
         </div>
+      </div>
+
+      <div class="bottom_container">
         
-      </div>
-      <div class="card_container">
-        <div class="card_top card fb">
-          <a href="#"><img src="assets/icon-facebook.svg" alt="icon"> @nathanf</a>
-          <h1>1987</h1>
-          <h2>FOLLOWERS</h2>
-          <span><img src="assets/icon-up.svg" alt="up"> 12 Today</span>
-        </div>
-        <div class="card_top card tt">
-          <a href="#"><img src="assets/icon-twitter.svg" alt="icon"> @nathanf</a>
-          <h1>1044</h1>
-          <h2>FOLLOWERS</h2>
-          <span><img src="assets/icon-up.svg" alt="up"> 99 Today</span>
-        </div>
-        <div class="card_top card insta">
-          <a href="#"><img src="assets/icon-instagram.svg" alt="icon"> @realnathanf</a>
-          <h1>11K</h1>
-          <h2>FOLLOWERS</h2>
-          <span><img src="assets/icon-up.svg" alt="up"> 1099 Today</span>
-        </div>
-        <div class="card_top card youtube">
-          <a href="#"><img src="assets/icon-youtube.svg" alt="icon"> Nathan F.</a>
-          <h1>8239</h1>
-          <h2>SUBSCRIBERS</h2>
-          <span><img src="assets/icon-down.svg" alt="down"> 144 Today</span>
-        </div>
+        <h2>Overview - Today</h2>
+        
 
-        <div class="card_top card fb">
-          <a href="#"><img src="assets/icon-facebook.svg" alt="icon"> @nathanf</a>
-          <h1>1987</h1>
-          <h2>FOLLOWERS</h2>
-          <span><img src="assets/icon-up.svg" alt="up"> 12 Today</span>
-        </div>
-        <div class="card_top card tt">
-          <a href="#"><img src="assets/icon-twitter.svg" alt="icon"> @nathanf</a>
-          <h1>1044</h1>
-          <h2>FOLLOWERS</h2>
-          <span><img src="assets/icon-up.svg" alt="up"> 99 Today</span>
-        </div>
-        <div class="card_top card insta">
-          <a href="#"><img src="assets/icon-instagram.svg" alt="icon"> @realnathanf</a>
-          <h1>11K</h1>
-          <h2>FOLLOWERS</h2>
-          <span><img src="assets/icon-up.svg" alt="up"> 1099 Today</span>
-        </div>
-        <div class="card_top card youtube">
-          <a href="#"><img src="assets/icon-youtube.svg" alt="icon"> Nathan F.</a>
-          <h1>8239</h1>
-          <h2>SUBSCRIBERS</h2>
-          <span><img src="assets/icon-down.svg" alt="down"> 144 Today</span>
+        <div class="card_container">
+          <div class="card_bottom card">
+            <span
+              >Page Views <img src="assets/icon-facebook.svg" alt="icon"
+            /></span>
+            <div class="bottom_grid_text">
+              <h3>87</h3>
+              <span class="green"><img src="assets/icon-up.svg" alt="icon" /> 3%</span>
+            </div>
+          </div>
+
+          <div class="card_bottom card">
+            <span>Likes <img src="assets/icon-facebook.svg" alt="icon" /></span>
+            <div class="bottom_grid_text">
+              <h3>52</h3>
+              <span class="red"><img src="assets/icon-down.svg" alt="icon" /> 2%</span>
+            </div>
+          </div>
+
+          <div class="card_bottom card">
+            <span>Likes <img src="assets/icon-instagram.svg" alt="icon" /></span>
+            <div class="bottom_grid_text">
+              <h3>5462</h3>
+              <span class="green"><img src="assets/icon-up.svg" alt="icon" /> 2257%</span>
+            </div>
+          </div>
+
+          <div class="card_bottom card">
+            <span>Profile Views <img src="assets/icon-instagram.svg" alt="icon" /></span>
+            <div class="bottom_grid_text">
+              <h3>52K</h3>
+              <span class="green"><img src="assets/icon-up.svg" alt="icon" /> 1375%</span>
+            </div>
+          </div>
+
+          <div class="card_bottom card">
+            <span>Retweets <img src="assets/icon-twitter.svg" alt="icon" /></span>
+            <div class="bottom_grid_text">
+              <h3>117</h3>
+              <span class="green"><img src="assets/icon-up.svg" alt="icon" /> 303%</span>
+            </div>
+          </div>
+
+          <div class="card_bottom card">
+            <span>Likes <img src="assets/icon-twitter.svg" alt="icon" /></span>
+            <div class="bottom_grid_text">
+              <h3>507</h3>
+              <span class="green"><img src="assets/icon-up.svg" alt="icon" /> 553%</span>
+            </div>
+          </div>
+
+          <div class="card_bottom card">
+            <span>Likes <img src="assets/icon-youtube.svg" alt="icon" /></span>
+            <div class="bottom_grid_text">
+              <h3>107</h3>
+              <span class="red"><img src="assets/icon-down.svg" alt="icon" /> 19%</span>
+            </div>
+          </div>
+
+          <div class="card_bottom card">
+            <span>Total Views <img src="assets/icon-youtube.svg" alt="icon" /></span>
+            <div class="bottom_grid_text">
+              <h3>1407</h3>
+              <span class="red"><img src="assets/icon-down.svg" alt="icon" /> 12%</span>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="bottom_container">
-
-      <div class="card_container">
-        <div class="card_bottom card"></div>
-        <div class="card_bottom card"></div>
-        <div class="card_bottom card"></div>
-        <div class="card_bottom card"></div>
-        <div class="card_bottom card"></div>
-        <div class="card_bottom card"></div>
-        <div class="card_bottom card"></div>
-        <div class="card_bottom card"></div>
-      </div>
-
-    </div>
-  </section>
-</body>
-<script src="index.js"></script>
+    </section>
+  </body>
+  <script src="index.js"></script>
 </html>
