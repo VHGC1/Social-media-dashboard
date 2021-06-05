@@ -251,3 +251,13 @@ input:checked + .slider:before {
   margin-right: 5px;
 }
 
+@media (max-width: 800px) {
+  section {
+    padding: 20px 30px;
+  }
+
+  .top_container_text {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+}
