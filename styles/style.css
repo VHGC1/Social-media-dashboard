@@ -54,7 +54,8 @@ a {
 
 .card_container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));;
+  /*grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));;*/
+  grid-template-columns: auto auto auto auto;
   gap: 2rem;
 }
 
@@ -294,6 +295,14 @@ input:checked + .slider:before {
   -webkit-text-fill-color: transparent;
 }
 
+@media (max-width: 1300px) {
+  .card_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));;
+    gap: 2rem;
+  }
+}
+
 @media (max-width: 800px) {
   section {
     padding: 20px 30px;
@@ -313,7 +322,7 @@ input:checked + .slider:before {
   .line {
     display: block;
     width: 100%;
-    height: 2px;
+    height: 1px;
     background: var(--dark-blue-hover);
     margin: 15px 0;
   }

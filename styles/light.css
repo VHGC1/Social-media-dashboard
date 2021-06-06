@@ -82,3 +82,9 @@ section {
   background-color: var(--white);
   color: var(--card-hover);
 }
+
+@media (max-width: 800px){
+  .line {
+    background: var(--grayish-blue-text);
+  }
+}
