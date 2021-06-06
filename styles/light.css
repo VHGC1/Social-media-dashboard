@@ -77,3 +77,8 @@ section {
 .card_bottom .bottom_grid_text h3 {
   color: var(--dark-blue-text);
 }
+
+.challenge {
+  background-color: var(--white);
+  color: var(--card-hover);
+}
