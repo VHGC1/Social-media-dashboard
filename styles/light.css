@@ -20,6 +20,10 @@
 - Very Dark Blue (Text): hsl(230, 17%, 14%)
 */
 
+body {
+  background: var(--white);
+}
+
 section {
   background-image: linear-gradient(to top, var(--white) 70%, var(--pale-blue-top-bg) 30%);
 }
