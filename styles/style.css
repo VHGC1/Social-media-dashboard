@@ -29,6 +29,10 @@
   padding: 0;
 }
 
+body {
+  background-image: linear-gradient(to top, var(--dark-blue-bg) 70%, var(--dark-blue-top-bg) 30%);
+}
+
 section {
   display: flex;
   flex-direction: column;
