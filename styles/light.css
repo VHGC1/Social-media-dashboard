@@ -1,0 +1,79 @@
+
+:root {
+
+  /* LIGHT THEME */
+
+  --white: hsl(0, 0%, 100%);
+  --toggle-light: hsl(230, 22%, 74%);
+  --pale-blue-top-bg: hsl(225, 100%, 98%);
+  --grayish_blue-card-bg: hsl(227, 47%, 96%);
+  --grayish-blue-text: hsl(228, 12%, 44%);
+  --dark-blue-text: hsl(230, 17%, 14%);
+  --card-hover: hsl(232, 33%, 91%);
+}
+
+/*
+- White (BG): hsl(0, 0%, 100%)
+- Very Pale Blue (Top BG Pattern): hsl(225, 100%, 98%)
+- Light Grayish Blue (Card BG): hsl(227, 47%, 96%)
+- Dark Grayish Blue (Text): hsl(228, 12%, 44%)
+- Very Dark Blue (Text): hsl(230, 17%, 14%)
+*/
+
+section {
+  background-image: linear-gradient(to top, var(--white) 70%, var(--pale-blue-top-bg) 30%);
+}
+
+.card {
+  background-color: var(--grayish_blue-card-bg);
+}
+
+.card:hover {
+  background: var(--card-hover);
+}
+
+.top_title h1 {
+  color: var(--dark-blue-text);
+}
+
+.top_title span {
+  color: var(--grayish-blue-text);
+}
+
+.toggle span {
+  color: var(--grayish-blue-text);
+}
+
+.card_top {
+  border-top: 5px solid var(--grayish_blue-card-bg);
+}
+
+.card_top:hover {
+  border-top: 5px solid var(--card-hover);
+}
+
+.card_top a {
+  color: var(--dark-blue-text);
+}
+
+.card_top h1 {
+  color: var(--dark-blue-text);
+}
+
+.card_top h2 {
+  color: var(--grayish-blue-text);
+}
+
+/* CARD BOTTOM */
+
+.bottom_container h2 {
+  color: var(--dark-blue-text);
+}
+
+.card_bottom span:first-child {
+  color: var(--grayish-blue-text);
+}
+
+.card_bottom .bottom_grid_text h3 {
+  color: var(--dark-blue-text);
+}

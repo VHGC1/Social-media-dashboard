@@ -1,14 +1,15 @@
 const toggle = document.getElementById("toggle")
+const light = document.getElementById("light")
 
-let a = document.getElementsByTagName("section")[0]
+
 
 let toggleStatus = false
 
 toggle.onchange = () => {
   toggleStatus = toggle.checked
   if(toggleStatus){
-    console.log("white")
+    light.href = "styles/light.css"
   }else {
-    console.log("dark")
+    light.href = ""
   }
 }
